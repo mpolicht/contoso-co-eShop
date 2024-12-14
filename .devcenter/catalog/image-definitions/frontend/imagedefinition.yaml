@@ -9,6 +9,7 @@ tasks:
     description: Install AZD
     parameters:
       package:  Microsoft.Azd
+      arguments: "--accept-source-agreements"
 
   - name: winget
     description: Install Visual Studio Code
