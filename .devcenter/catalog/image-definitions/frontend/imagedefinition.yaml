@@ -10,7 +10,7 @@ tasks:
     parameters:
       package: Microsoft.VisualStudioCode
       runAsUser: false
-      arguments: '--scope machine'
+      arguments: "--scope machine"
 
   - name: powershell
     parameters:
