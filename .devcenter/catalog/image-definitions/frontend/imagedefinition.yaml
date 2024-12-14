@@ -6,12 +6,6 @@ description: "This definition is for the eShop frontend engineering environment"
 
 tasks:
   - name: winget
-    description: Install AZD
-    parameters:
-      package: Microsoft.Azd
-      arguments: "--accept-source-agreements"
-
-  - name: winget
     description: Install Visual Studio Code
     parameters:
       package: Microsoft.VisualStudioCode
