@@ -9,7 +9,7 @@ tasks:
     description: Install Visual Studio Code
     parameters:
       package: Microsoft.VisualStudioCode
-      runAsUser: true
+      runAsUser: false
 
   - name: powershell
     parameters:
